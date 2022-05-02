@@ -3,10 +3,7 @@
     [
       "@babel/preset-env",
       {
-        "targets": {
-          "chrome": "103",
-          "ie": "11"
-        }
+        "targets": "> 1%, not dead"
       }
     ]
   ]
