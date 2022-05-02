@@ -4,7 +4,8 @@
       "@babel/preset-env",
       {
         "targets": {
-          "chrome": "103"
+          "chrome": "103",
+          "ie": "11"
         }
       }
     ]
