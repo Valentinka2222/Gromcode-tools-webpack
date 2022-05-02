@@ -3,7 +3,9 @@
     [
       "@babel/preset-env",
       {
-        "targets": "> 1%"
+        "targets": {
+          "chrome": "103"
+        }
       }
     ]
   ]
