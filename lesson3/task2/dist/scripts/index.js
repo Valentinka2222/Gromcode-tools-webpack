@@ -1,11 +1,11 @@
 import { initTodoListHandlers } from './todolist.js';
 import { renderTasks } from './renderer.js';
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
   renderTasks();
   initTodoListHandlers();
 });
 
-var onStorageChange = function onStorageChange(e) {
+const onStorageChange = e => {
   if (e.key === 'tasksList') {
     renderTasks();
   }
