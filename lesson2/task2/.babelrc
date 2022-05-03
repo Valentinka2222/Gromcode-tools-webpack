@@ -3,7 +3,7 @@
     [
       "@babel/preset-env",
       {
-     "targets":">1% or last 2 versions"
+     "targets":"last 2 versions or > 1%"
         }
     ]
   ]
