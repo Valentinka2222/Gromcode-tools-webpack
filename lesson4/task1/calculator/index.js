@@ -18,4 +18,4 @@ const calc = expression => {
   console.log('implementation for calc');
   // ... implementation
 };
-export default { calc };
+export default calc;
