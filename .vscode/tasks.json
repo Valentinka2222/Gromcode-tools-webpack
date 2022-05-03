@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "path": "lesson1/task1/",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "label": "npm: build - lesson1/task1",
+      "detail": "npm-run-all build:styles copy:*"
+    }
+  ]
+}
