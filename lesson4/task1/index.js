@@ -6,7 +6,8 @@
 // импортируйте ф-цию printProfile из profile/index.js под таким же именем
 
 import './polyfills/array-flat.js';
-import { sum, mult, calc as calcExpression } from './calculator/index.js';
+import { sum, mult } from './calculator/index.js';
+import { default as calcExpression } from './calculator/index.js';
 import fetchUser from './profile/gateway.js';
 import { printProfile } from './profile/index.js';
 
