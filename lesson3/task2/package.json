@@ -10,7 +10,7 @@
     "copy:html": "cp ./src/index.html ./dist/index.html",
     "build:scripts": "babel ./src --out-dir=./dist",
     "clean": "rm -rf ./dist",
-    "build": "npm-run-all build:* copy:*"
+    "build": "npm-run-all clean build:* copy:*"
   },
   "keywords": [],
   "author": "",
