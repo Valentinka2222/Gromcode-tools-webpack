@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "test": "jest",
+    "test": "jest",
     "test:watch": "jest --watch",
     "build:styles": "sass ./src/styles/index.scss ./dist/styles.css",
     "copy:html": "copy src\\index.html dist\\index.html",
