@@ -81,20 +81,20 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/my-index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/my-index.js":
-/*!*************************!*\
-  !*** ./src/my-index.js ***!
-  \*************************/
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _profile_gateway_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./profile/gateway.js */ \"./src/profile/gateway.js\");\n/* harmony import */ var _profile_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./profile/index.js */ \"./src/profile/index.js\");\n\r\n\r\n\r\nObject(_profile_gateway_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])('facebook').then(userData =>\r\n  Object(_profile_index_js__WEBPACK_IMPORTED_MODULE_1__[\"printProfile\"])({\r\n    name: userData.name,\r\n    company: userData.location,\r\n  }),\r\n);\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvbXktaW5kZXguanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvbXktaW5kZXguanM/OTE1OCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZmV0Y2hVc2VyIGZyb20gJy4vcHJvZmlsZS9nYXRld2F5LmpzJztcclxuaW1wb3J0IHsgcHJpbnRQcm9maWxlIH0gZnJvbSAnLi9wcm9maWxlL2luZGV4LmpzJztcclxuXHJcbmZldGNoVXNlcignZmFjZWJvb2snKS50aGVuKHVzZXJEYXRhID0+XHJcbiAgcHJpbnRQcm9maWxlKHtcclxuICAgIG5hbWU6IHVzZXJEYXRhLm5hbWUsXHJcbiAgICBjb21wYW55OiB1c2VyRGF0YS5sb2NhdGlvbixcclxuICB9KSxcclxuKTtcclxuIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7Iiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/my-index.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _profile_gateway_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./profile/gateway.js */ \"./src/profile/gateway.js\");\n/* harmony import */ var _profile_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./profile/index.js */ \"./src/profile/index.js\");\n\r\n\r\n\r\nObject(_profile_gateway_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])('facebook').then(userData =>\r\n  Object(_profile_index_js__WEBPACK_IMPORTED_MODULE_1__[\"printProfile\"])({\r\n    name: userData.name,\r\n    company: userData.location,\r\n  }),\r\n);\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvaW5kZXguanM/YjYzNSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZmV0Y2hVc2VyIGZyb20gJy4vcHJvZmlsZS9nYXRld2F5LmpzJztcclxuaW1wb3J0IHsgcHJpbnRQcm9maWxlIH0gZnJvbSAnLi9wcm9maWxlL2luZGV4LmpzJztcclxuXHJcbmZldGNoVXNlcignZmFjZWJvb2snKS50aGVuKHVzZXJEYXRhID0+XHJcbiAgcHJpbnRQcm9maWxlKHtcclxuICAgIG5hbWU6IHVzZXJEYXRhLm5hbWUsXHJcbiAgICBjb21wYW55OiB1c2VyRGF0YS5sb2NhdGlvbixcclxuICB9KSxcclxuKTtcclxuIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7Iiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/index.js\n");
 
 /***/ }),
 
