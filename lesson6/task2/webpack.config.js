@@ -7,7 +7,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/i,
-        loader: ['babel-loader'],
+        use: ['babel-loader'],
       },
     ],
   },
