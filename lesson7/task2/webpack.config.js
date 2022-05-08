@@ -17,7 +17,7 @@ module.exports = {
         use: ['babel-loader'],
       },
       {
-        test: /\.s?css$/,
+        test: /\.(css|scss)$/i,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
       {
@@ -41,7 +41,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
-    new MiniCssExtractPlugin({
+    new { MiniCssExtractPlugin }({
       filename: '[name].css',
     }),
   ],
