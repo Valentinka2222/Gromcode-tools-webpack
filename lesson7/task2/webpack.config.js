@@ -1,8 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-
 const webpack = require('webpack');
 
 module.exports = {
@@ -13,11 +12,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/i,
-        use: ['babel-loader'],
-      },
-      {
-        test: /\.(css|scss)$/i,
+        test: /\.s?css$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
       {
@@ -37,12 +32,13 @@ module.exports = {
   },
   plugins: [
     new webpack.ProgressPlugin(),
+
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
-    new { MiniCssExtractPlugin }({
-      filename: '[name].css',
+    new MiniCssExtractPlugin({
+      filename: 'list.css',
     }),
   ],
 };
