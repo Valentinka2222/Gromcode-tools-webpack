@@ -1,6 +1,11 @@
 .todo-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 32px;
   background-color: coral;
   border-radius: 8px;
@@ -18,8 +23,12 @@
 }
 
 .list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 40px;
   border-radius: 8px;
   background-color: wheat;
@@ -55,6 +64,8 @@
 }
 
 .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 8px;
 }
@@ -63,7 +74,9 @@
   height: 32px;
   border: 3px solid #ccc;
   border-radius: 8px;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .list__item__delete-btn {
@@ -77,7 +90,8 @@
   margin-left: auto;
   text-decoration: none;
   padding: 0;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
   font-size: 18px;
   line-height: 24px;
   text-align: center;
@@ -87,3 +101,4 @@
 .list__item__delete-btn::before {
   content: '+';
 }
+/*# sourceMappingURL=list.css.map */

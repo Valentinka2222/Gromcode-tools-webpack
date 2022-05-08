@@ -1,3 +1,18 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .todo-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99,6 +114,6 @@
 }
 
 .list__item__delete-btn::before {
-  content: '+';
+  content: "+";
 }
-/*# sourceMappingURL=list.css.map */
+/*# sourceMappingURL=index.css.map */
